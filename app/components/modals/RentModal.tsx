@@ -63,7 +63,7 @@ const RentModal = () => {
 
   const Map = useMemo(
     () =>
-      dynamic(() => import("../navbar/Map"), {
+      dynamic(() => import("../Map"), {
         ssr: false,
       }),
     [location]

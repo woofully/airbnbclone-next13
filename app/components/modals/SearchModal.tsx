@@ -36,7 +36,7 @@ const SearchModal = () => {
   });
 
   const Map = useMemo(
-    () => dynamic(() => import("../navbar/Map"), { ssr: false }),
+    () => dynamic(() => import("../Map"), { ssr: false }),
     [location]
   );
 
