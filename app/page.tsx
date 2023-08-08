@@ -1,4 +1,7 @@
 // import ClientOnly from "./components/ClientOnly"
+export const dynamic = "auto";
+// 'auto' | 'force-dynamic' | 'error' | 'force-static'
+
 import { error } from "console";
 import getCurrentUser from "./actions/getCurrentUser";
 import getListings, { IListingsParams } from "./actions/getListings";
