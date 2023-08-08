@@ -1,5 +1,5 @@
 // import ClientOnly from "./components/ClientOnly"
-export const dynamic = "auto";
+export const dynamic = "force-dynamic";
 // 'auto' | 'force-dynamic' | 'error' | 'force-static'
 
 import { error } from "console";
